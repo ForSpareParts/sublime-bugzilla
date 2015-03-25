@@ -1,0 +1,17 @@
+[
+    {
+        "caption": "Bugzilla: Title",
+        "command": "bugzilla_id_prompt",
+        "args": {
+            "next_command": "bugzilla_title"
+        }
+    },
+    {
+        "caption": "Bugzilla: View Comments",
+        "command": "bugzilla_id_prompt",
+        "args": {
+            "next_command": "bugzilla_view_comments",
+            "use_window": true
+        }
+    }
+]
