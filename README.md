@@ -10,10 +10,9 @@ Installation
 
 1. Install the ``bugzillatools`` package (``pip install bugzillatools``)
 2. Clone this repository to your Sublime Text 3 ``Packages`` directory.
-3. Make a copy of the repository's ``Bugzilla.sublime-settings`` in your
-   Sublime ``Packages/User`` directory (the same directory that contains
-   your user preferences and keymaps). 
-4. Edit this file to reflect your bugzilla URL, username, and password.
+3. Open Preferences -> Package Settings -> Bugzilla -> Settings – User, and
+edit this file to reflect your Bugzilla URL, username, and password. Use the
+Bugzilla -> Settings – Default file as a model.
 
 Now you should be good to go. If commands still don't run, find the location
 of the ``bugzilla`` command (using ``which bugzilla`` from the terminal), and
