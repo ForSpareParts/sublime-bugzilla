@@ -13,5 +13,13 @@
             "next_command": "bugzilla_view_comments",
             "use_window": true
         }
+    },
+    {
+        "caption": "Bugzilla: New Comment",
+        "command": "bugzilla_id_prompt",
+        "args": {
+            "next_command": "bugzilla_new_comment",
+            "use_window": true
+        }
     }
 ]
