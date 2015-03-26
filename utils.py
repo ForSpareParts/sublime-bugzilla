@@ -36,7 +36,7 @@ def bugzilla_command(command, *args):
     settings = get_settings()
 
     full_args = [
-        '/usr/local/bin/bugzilla',
+        settings.get('bugzilla_script'),
         command,
         '--url', settings.get('url'),
         '--user', settings.get('login'),
